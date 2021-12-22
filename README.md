@@ -1,7 +1,26 @@
 # Code commun de départ pour projet web en PHP.
 Code commun de départ (boilerplate) fournissant un service Apache + PHP et MariaDB.
 
-Les services fournis par les deux images Docker sont :
+## Prérequis :
 
-- Apache2 + PHP7.3 (https://github.com/docker-library/php/blob/master/7.3/buster/apache/Dockerfile)
-- MariaDB (https://github.com/docker-library/mariadb/blob/f2ba44905eb3aed53fca34536f05f109055d9bc2/10.2/Dockerfile)
+- docker
+- docker-compose
+- bash
+
+## Utilisation :
+
+`./start.bash` pour démarrer l´ensemble.
+
+`./stop.bash` pour arrêter l´ensemble.
+
+## Informations :
+
+### Service web :
+- PHP 7.3 + Apache 2.
+
+### Service de base de données :
+- MariaDB : 10.2
+- Hôte : `db`
+- Utilisateur : `root`
+- Mot de passe : `1234`
+- Port : `3306`
