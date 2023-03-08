@@ -1,4 +1,4 @@
-# Boilerplate PHP + Apache + MariaDB + Docker
+# PHP + Apache + MariaDB + Docker
 Code commun de départ (boilerplate) fournissant un service Apache + PHP et MariaDB.
 
 ## Prérequis :
